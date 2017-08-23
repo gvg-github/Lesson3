@@ -124,6 +124,8 @@ public class Main {
 
         } while (x != 0);
 
+        rndf.close();
+        br.close();
         System.out.println("Programm ends.");
     }
 }
